@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap')
+@import './variables'
+
+@import 'bootstrap'
+
+h1, h2, h3, h4, h5, h6
+  font-weight: 600
+
+.form-control
+  border: 0
+  
+a
+  text-decoration: dotted
+  
+.spin
+  animation: spin 2s infinite linear forwards
+
+@keyframes spin
+  0%
+    transform: rotate(0)
+  100%
+    transform: rotate(360deg)
+
+.card
+  border: none
+
+.form-control
+  background-color: #F2F2F2
+  &:focus
+    background-color: #EAEAEA
+    box-shadow: none
+    
+.alert
+  border: none
